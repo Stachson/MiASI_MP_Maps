@@ -1,0 +1,7 @@
+
+string nazwa
+string sciezka
+nazwa = "mapaNazwa"
+sciezka = "C:\\Users\\Stanisław Strauchold\\Desktop\\studia\\VIII semestr\\MiASI\\Projekt\\wynik.mp"
+
+save_file nazwa sciezka
