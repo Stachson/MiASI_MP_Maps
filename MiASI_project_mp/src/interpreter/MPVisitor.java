@@ -20,9 +20,9 @@ import java.util.List;
 
 public class MPVisitor extends GetUMPStxBaseVisitor<Void> {
     private Connection connection;
-    private String url = "jdbc:postgresql://mydbinstance.czue2casejbn.us-east-1.rds.amazonaws.com:5432/ZaawansowaneBazyDanych";
-    private String user = "postgres";
-    private String password = "pwritehaslo";
+    private String url = "";
+    private String user = "";
+    private String password = "";
     private int mapId = -1;
 
     public MPVisitor(String jdbcURL, String username, String password) throws SQLException {
